@@ -1,0 +1,16 @@
+server:
+  port: 3333
+
+spring:
+  jta:
+    enabled: true
+  application:
+    name: blps_3_payment_service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/itmo
+    username: postgres
+    password: postgres
+  flyway:
+    url: jdbc:postgresql://localhost:5432/itmo
+    user: postgres
+    password: postgres
