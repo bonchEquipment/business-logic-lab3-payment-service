@@ -5,7 +5,7 @@ spring:
   jta:
     enabled: true
   application:
-    name: blps_3_payment_service
+    name: blps-3-payment-service
   datasource:
     url: jdbc:postgresql://localhost:5432/itmo
     username: postgres
